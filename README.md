@@ -23,6 +23,12 @@ What import alias would you like configured? @/*
 
 Manual Next Set-Up Installation:
 
+Next App Routing Set-Up
+https://github.com/choir27/Next-App-Routing
+
+Next Page Routing Set-Up
+https://github.com/choir27/Next-Page-Routing
+
 ```
 pnpm init
 pnpm install next@latest 
@@ -52,9 +58,3 @@ To make api routes, create a folder named api and create a file inside of the ap
 To create a new Zustand state, make sure you initialize both the state value and the state function.  Separate your state functions and state values into two different types, State and Action.  When creating your state functions inside of your Zustand store, make sure to use produce() so the rest of the application can access them (Also make sure that produce is nested inside of set).
 
 As a reminder, Zustand useStore hook can only be used in components.
-
-Next App Routing Set-Up
-https://github.com/choir27/Next-App-Routing
-
-Next Page Routing Set-Up
-https://github.com/choir27/Next-Page-Routing
