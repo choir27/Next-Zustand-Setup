@@ -1,10 +1,15 @@
+"use client"
 import Nav from "../components/Nav"
+import FirstName from "../components/Input/FirstName"
 
 export default function Home() {
+
     return(
       <main>
               <Nav/>
-              <h1>Home</h1>
+              <form id = "authentication">
+                  <FirstName/>
+              </form>
       </main>
     )
   }
