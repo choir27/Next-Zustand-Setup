@@ -2,38 +2,46 @@
 
 Automatic Next Set-Up Installation:
 
-```pnpm create-next-app@latest
+```
+pnpm create-next-app@latest
 pnpm install zustand
-pnpm install immer```
+pnpm install immer
+```
 
 Upon installation, you will see the following prompts:
 
-```What is your project named? my-app
+```
+What is your project named? my-app
 Would you like to use TypeScript? No / Yes
 Would you like to use ESLint? No / Yes
 Would you like to use Tailwind CSS? No / Yes
-Would you like to use `src/` directory? No / Yes
+Would you like to use src/ directory? No / Yes
 Would you like to use App Router? (recommended) No / Yes
 Would you like to customize the default import alias (@/*)? No / Yes
-What import alias would you like configured? @/*```
+What import alias would you like configured? @/*
+```
 
 Manual Next Set-Up Installation:
 
-```pnpm init
+```
+pnpm init
 pnpm install next@latest 
 pnpm install react@latest 
-pnpm install react-dom@latest```
+pnpm install react-dom@latestx
+```
 
 Make sure you have the following for your scripts in your package.json file: 
 
-```{
+```
+{
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   }
-}```
+}
+```
 
 Create an app folder in the root of your project.
 
